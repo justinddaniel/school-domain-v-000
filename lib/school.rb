@@ -11,13 +11,8 @@ class School
   end
 
   def add_student(student, grade)
-    @students = []
+    roster[grade] ||= []
+    roster[grade] << student
     binding.pry
-    student.each do |student|
-      students.push(student)
-    end
-    roster[grade] = students
   end
 
-
-end
