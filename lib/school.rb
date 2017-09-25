@@ -1,8 +1,7 @@
 require 'pry'
 
 class School
-  attr_accessor :students, :grade
-  attr_reader :name, :roster
+  attr_accessor :name, :roster
 
 
 
