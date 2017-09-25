@@ -15,4 +15,3 @@ class School
     roster[grade] << student
     binding.pry
   end
-
